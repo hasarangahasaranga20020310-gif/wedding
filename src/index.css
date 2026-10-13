@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* =========================================
+     SRI LANKAN KANDYAN BRIDAL PALETTE
+     Cream · Royal Purple · Antique 22K Gold
+  ========================================== */
+
+  --color-wedding-cream: #fbf8f2;
+  --color-wedding-ivory: #fffdf9;
+  --color-wedding-mist: #f3e8f4;
+  --color-wedding-purple: #5b184e;
+  --color-wedding-deep-purple: #46113c;
+  --color-wedding-gold: #c59b27;
+  --color-wedding-bright-gold: #d4af37;
+  --color-wedding-gold-light: #eadbbe;
+  --color-wedding-text: #281625;
+  --color-wedding-muted: #6e586c;
+}
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+
+  background: #fbf8f2;
+
+  color: #281625;
+
+  font-family: "Inter", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================
+   BOX SIZING
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+/* =========================================
+   MOBILE TAP
+========================================= */
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* =========================================
+   BUTTON CURSOR
+========================================= */
+
+button {
+  cursor: pointer;
+}
