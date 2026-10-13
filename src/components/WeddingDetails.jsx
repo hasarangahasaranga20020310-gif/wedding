@@ -5,7 +5,11 @@ const details = [
   {
     icon: CalendarDays,
     label: "The Date",
-    value: "12 November",
+    value: (
+      <>
+        12<sup className="align-super text-xs">th</sup> November
+      </>
+    ),
     subValue: "2026",
   },
   {
