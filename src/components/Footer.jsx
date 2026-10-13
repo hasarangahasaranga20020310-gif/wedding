@@ -278,17 +278,17 @@ function Footer() {
                 sm:text-4xl
               "
             >
-              Sanjeewa
+              <span className="block">Sanjeewa</span>
               <span
                 className="
-                  mx-3
+                  block
                   text-xl
                   text-[#D4AF37]
                 "
               >
                 &
               </span>
-              Vihangana
+              <span className="block">Vihangana</span>
             </motion.p>
 
             {/* =========================================
